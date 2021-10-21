@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html>
+<head>
+<style>
+body{
+    font-family:Microsoft JhengHei;
+    margin:0px 0px 0px 0px;
+    text-align: center;
+    background-image: url(https://www.gtut.com.tw/proimages/pal/gtut_images/background/10567090_xxl.jpg);
+	background-attachment:fixed;
+    background-repeat:no-repeat;
+	background-size: 100%;
+}
+div.container {
+	border: 1px solid gray;
+	background-color:#FFC8B4;
+	position:relative;
+    text-align: left;
+    width: 1400px;
+	height: 900px;
+    padding:0px 0px 0px 0px;
+    margin:10px auto;
+}
+header, footer {
+    padding: 1em;
+	clear: left;
+	font-family:Microsoft JhengHei;
+}
+nav {
+    float: left;
+	max-width: 160px;
+	margin-left:  100px;
+	padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+article {
+    margin-left:  300px;
+    overflow: hidden;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<header>
+  <h1 style="text-align:left;color:black">123拍賣網<h1>
+  <div  style="margin-left:  250px;">
+  <img src="http://class114.ddns.net/teach/6/l2/free/free_files/image/03.gif">
+  </div>
+  <h4 style="text-align:right">
+  <a href="http://127.0.0.1/Mypage/SignIn.html" style="text-decoration:none;color:yellow">用戶註冊</a>
+  <a href="http://127.0.0.1/Mypage/LogIn.html" style="text-decoration:none;color:yellow">登入</a>
+  <a href="#" style="text-decoration:none;color:yellow">客服中心</a></h4>
+</header>
+
+<nav class="menu">
+  <ul>
+    <li><h3>實體商品</h3></li>
+	<form action="productlist.php" method="post">
+    <li><h4><input type="submit" name="productType" value="CPU"></h4></li> 
+	</form>
+    <li><h4><a href="productlist.php" name="productType" value="顯示卡" target="_blank" style="text-decoration:none;color:#003377">顯示卡</h4></a></li>
+	<li><h4><a href="#" target="_blank" style="text-decoration:none;color:#003377">手機</h4></a></li>
+	<li><h4><a href="#" target="_blank" style="text-decoration:none;color:#003377">公仔</h4></a></li>
+	<li><h3>虛擬商品</h3></li>
+	<li><h4><a href="#" target="_blank" style="text-decoration:none;color:#003377">遊戲虛寶</h4></a></li>
+	<li><h4><a href="#" target="_blank" style="text-decoration:none;color:#003377">點數卡</h4></a></li>
+  </ul>
+</nav>
+
+<article>
+  <input type="text" name="reaserch" style="width:500px;height:30px;margin-left:100px" placeholder="請輸入想要搜尋的商品">
+  <input type="submit" style="width:50px;height:30px" value="搜尋"><br><br>
+  <?php
+  
+  ?>
+</article>
+
+<footer style="text-align:center">
+    Copyright &copy; I2A01 I2A51<br>
+	客服中心電話：0800-123-456<br>
+	客服中心服務時間：9:00到20:00
+</footer>
+
+</div>
+</body>
+</html>

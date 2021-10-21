@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html>
+<head>
+<style>
+body{
+    margin:0px 0px 0px 0px;
+    text-align: center;
+    background-image: url(https://www.gtut.com.tw/proimages/pal/gtut_images/background/10567090_xxl.jpg);
+	background-attachment:fixed;
+    background-repeat:no-repeat;
+	background-size: 100%;
+	font-family:Microsoft JhengHei;
+}
+div.container {
+	border: 1px solid gray;
+	background-color:#FFC8B4;
+	position:relative;
+    text-align: left;
+    width: 1400px;
+	height: 900px;
+    padding:0px 0px 0px 0px;
+    margin:10px auto;
+}
+header, footer {
+    padding: 1em;
+	clear: left;
+	font-family:Microsoft JhengHei;
+}
+nav {
+    float: left;
+	max-width: 160px;
+	margin-left:  100px;
+	padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+article {
+    margin-left:  600px;
+    overflow: hidden;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<header>
+  <h1 style="text-align:left;color:black">123拍賣網<h1>
+  <h4 style="text-align:right">
+  <a href="#" target="_blank" style="text-decoration:none;color:yellow">用戶註冊</a>
+  <a href="#" target="_blank" style="text-decoration:none;color:yellow">登入</a></h4>
+</header>
+
+<nav class="menu">
+  <ul>
+    <li><h3>實體商品</h3></li>
+    <li><h4><a href="#" target="_blank" style="text-decoration:none;color:#003377">CPU</h4></a></li> 
+    <li><h4><a href="#" target="_blank" style="text-decoration:none;color:#003377">顯示卡</h4></a></li>
+	<li><h4><a href="#" target="_blank" style="text-decoration:none;color:#003377">手機</h4></a></li>
+	<li><h4><a href="#" target="_blank" style="text-decoration:none;color:#003377">公仔</h4></a></li>
+	<li><h3>虛擬商品</h3></li>
+	<li><h4><a href="#" target="_blank" style="text-decoration:none;color:#003377">遊戲虛寶</h4></a></li>
+	<li><h4><a href="#" target="_blank" style="text-decoration:none;color:#003377">點數卡</h4></a></li>
+  </ul>
+</nav>
+
+<article>
+  <form action="SignInData.php" method="post">
+    <br>
+    用戶名稱<br><input type="text" name="user"><br>
+    帳號<br><input type="text" name="account"><br>
+    密碼<br><input type="password" name="password"><br>
+    性別<br><input type="radio" name="sex" value="male">男生 <input type="radio" name="sex" value="female">女生<br>
+    電子信箱<br><input type="text" name="email"><br>
+	聯絡電話<br><input type="text" name="phonenumber"><br>
+    生日<br><input type="date" name="birthday"><br>
+    地址<br><input type="text" name="address" style="width:200px;"><br>
+	<input type="submit" value="註冊"><input type="reset" value="清除資料">
+  </form>
+</article>
+
+<footer style="text-align:center">
+    Copyright &copy; I2A01 I2A51<br>
+	客服中心電話：0800-123-456<br>
+	客服中心服務時間：9:00到20:00
+</footer>
+
+</div>
+</body>
+</html>
