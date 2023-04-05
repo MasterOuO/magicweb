@@ -40,6 +40,6 @@
 <img src ="https://github.com/MasterOuO/magicweb/blob/main/show/localhost_sendmail.png" width = "500px">
 <img src ="https://github.com/MasterOuO/magicweb/blob/main/show/localhost_send.png" width = "500px">
 ## 資料庫
-資料表設計圖
+資料表設計圖  
 <img src ="https://github.com/MasterOuO/magicweb/blob/main/show/image.png" width = "500px">
 
