@@ -18,4 +18,4 @@
 
 ## 使用者介面介紹
 ### 首頁
-
+![image]https://github.com/MasterOuO/magicweb/blob/main/show/localhost_.png
