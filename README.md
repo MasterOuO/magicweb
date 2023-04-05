@@ -39,6 +39,7 @@
 開放會員私信系統，可以進行和賣家或買家進行對話。  
 <img src ="https://github.com/MasterOuO/magicweb/blob/main/show/localhost_sendmail.png" width = "500px">
 <img src ="https://github.com/MasterOuO/magicweb/blob/main/show/localhost_send.png" width = "500px">
-### 資料表設計
+## 資料庫
+資料表設計圖
 <img src ="https://github.com/MasterOuO/magicweb/blob/main/show/image.png" width = "500px">
 
